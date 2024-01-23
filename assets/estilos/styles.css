@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    align-items: center;
+    background-color: #ffe9ab;
+}
+.header{
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #051136;
+}
+.navegacion{
+    text-align: center;
+    padding: 5px;
+    background-color: #081f63;
+}
+.videojuegosMain{
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #d8e2ff;
+    border: 10px solid #081f63;
+    height: 300px;
+    width: 600px; 
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.videojuegos{
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #d8e2ff;
+    border: 10px solid #081f63;
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    margin-right: 100px;
+    position: absolute;
+    right: 0px;
+    top: 300px;
+}
+.imagenVideojuego{
+    height: 400px;
+    width: 500px;
+    cursor: pointer;
+}
