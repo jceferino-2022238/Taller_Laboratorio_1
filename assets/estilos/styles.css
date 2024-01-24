@@ -38,6 +38,7 @@ body{
     align-items: center;
     align-content: center;
     text-align: center;
+    
     background-color: #d8e2ff;
     border: 10px solid #081f63;
     width: 600px;
@@ -47,6 +48,9 @@ body{
     position: absolute;
     right: 0px;
     top: 300px;
+}
+.videojuegoRRR{
+    text-justify: inter-word;
 }
 .imagenVideojuego{
     height: 400px;
