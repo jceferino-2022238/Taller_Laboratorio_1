@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    align-items: center;
+    background-color: #ffe9ab;
+    background-repeat: no-repeat;
+}
+.header{
+    padding: 10px;
+    height: 200px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #051136;
+}
+.navegacion{
+    text-align: center;
+    padding: 5px;
+    background-color: #081f63;
+}
