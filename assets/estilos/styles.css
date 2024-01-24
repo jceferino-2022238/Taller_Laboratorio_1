@@ -3,6 +3,7 @@ body{
     align-content: center;
     align-items: center;
     background-color: #ffe9ab;
+    background-repeat: no-repeat;
 }
 .header{
     padding: 10px;
