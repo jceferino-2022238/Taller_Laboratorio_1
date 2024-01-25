@@ -98,14 +98,6 @@ body{
     grid-column-start: 2;
     grid-column-end: 3;
 }
-.opciones{
-    padding: 5px;
-    text-align: center;
-    background-color: #e4ebff;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
 .opcionesH{
     font-size: large;
 }
@@ -115,4 +107,54 @@ body{
 .programasImg{
     width: 80px;
     width: 80px;
+}
+.botonD{
+    background-color: #051136;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+}
+.botonD:hover, .botonD:focus{
+    background-color: #081f63;
+}
+.menu{
+    position: relative;
+    display: inline-block;
+}
+.opciones{
+    display: none;
+    position: absolute;
+    background-color: #e4ebff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 300px;
+}
+.opciones1{
+    color: black;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
+.opciones1:hover{
+    background-color: #ddd;
+}
+.show{
+    display: block;
+}
+.proyecto{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #9fb7ff; 
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 500px;
+}
+.tituloP{
+    padding: 10px;
+    background-color: #275dff;
+    border-radius: 12px;
 }

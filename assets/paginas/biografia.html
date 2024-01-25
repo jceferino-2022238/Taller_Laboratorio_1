@@ -1,89 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="../estilos/stylesP.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="../estilos/stylesP.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="header">
-        <header>
-            <h1 style="color: white;">José Carlos Ceferino Fabián</h1>
-            <h2 style="color: white;">MI BIOGRAFÍA</h2>
-            <nav class="navegacion">
-                <a href="/index.html" style="color: white;">MIS PASATIEMPOS</a>
-                <br>
-                <br>
-                <a href="./kinal.html" style="color: white;">PÁGINA DE KINAL</a>
-            </nav>
-        </header>
+      <header>
+        <h1 style="color: white">José Carlos Ceferino Fabián</h1>
+        <h2 style="color: white">MI BIOGRAFÍA</h2>
+        <nav class="navegacion">
+          <a href="/index.html" style="color: white">MIS PASATIEMPOS</a>
+          <br />
+          <br />
+          <a href="./kinal.html" style="color: white">PÁGINA DE KINAL</a>
+        </nav>
+      </header>
     </div>
     <div class="contenido">
-        <div class="titulos">
-            <h1 style="color: white;">¿QUIÉN SOY?</h1>
+      <div class="titulos">
+        <h1 style="color: white">¿QUIÉN SOY?</h1>
+      </div>
+      <div class="bio">
+        <div class="biografia" id="quien">
+          <h1></h1>
+          <p></p>
         </div>
-        <div class="bio">
-            <div class="biografia" id="quien">
-                <h1></h1>
-                <p></p>
+        <div class="biografia" id="quien2">
+          <h1></h1>
+          <p></p>
+        </div>
+        <div class="biografia" id="quien3">
+          <h1></h1>
+          <p></p>
+        </div>
+      </div>
+      <div class="titulos">
+        <h1 style="color: white">¿QUÉ ESPERO DEL AÑO?</h1>
+      </div>
+      <div class="espero">
+        <h1></h1>
+        <p></p>
+      </div>
+      <div class="titulos">
+        <h1 style="color: white">PORTAFOLIO Y HABILIDADES</h1>
+      </div>
+      <div class="portafolioH">
+        <div id="portal1" class="portalH">
+          <h2>PORTAFOLIO</h2>
+          <div class="menu">
+            <button onclick="mostrar()" class="botonD">
+              Menu de proyectos
+            </button>
+            <div id="cuadroOpciones" class="opciones">
+              <div onclick="mostrarMovie()" class="opciones1">Movie Legends</div>
+              <div onclick="mostrarClothes()" class="opciones1">Clothes Store</div>
+              <div onclick="mostrarMath()" class="opciones1">Math Page</div>
             </div>
-            <div class="biografia" id="quien2">
-                <h1></h1>
-                <p></p>
+          </div>
+          <div class="proyecto">
+            <div class="tituloP">
+                <h2 id="tituloAR" style="color: white;"></h2>
             </div>
-            <div class="biografia" id="quien3">
-                <h1></h1>
-                <p></p>
+            <div>
+                <p style="text-align: justify; font-size: larger;" id="textoAR"></p>
+                <img style="width: 380px; height: 210px; margin-top: 30px; margin-bottom: 20px;" id="imagenAR">
             </div>
+          </div>
         </div>
-        <div class="titulos">
-            <h1 style="color: white;">¿QUÉ ESPERO DEL AÑO?</h1>
+        <div id="portal2" class="portalH">
+          <h2>HABILIDADES</h2>
+          <p style="text-align: justify">
+            En esta sección se muestran y nombran los programas y lenguajes de
+            programación en los qué cuento con conocimiento básico y puedo
+            manejar.
+          </p>
+          <details class="opcionesH">
+            <summary>PROGRAMAS QUÉ MANEJO</summary>
+            <summary class="programas">Java</summary>
+            <img
+              class="programasImg"
+              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png"
+            />
+            <summary class="programas">MySQL</summary>
+            <img
+              class="programasImg"
+              src="https://hoplasoftware.com/wp-content/uploads/2021/07/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png"
+            />
+            <summary class="programas">HTML</summary>
+            <img
+              class="programasImg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png"
+            />
+            <summary class="programas">CSS</summary>
+            <img
+              class="programasImg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+            />
+            <summary class="programas">JavaScript</summary>
+            <img
+              class="programasImg"
+              src="https://trellat.es/wp-content/uploads/2015/02/javascript_logo.png"
+            />
+          </details>
         </div>
-        <div class="espero">
-            <h1></h1>
-            <p></p>
-        </div>
-        <div class="titulos">
-            <h1 style="color: white;">PORTAFOLIO Y HABILIDADES</h1>
-        </div>
-        <div class="portafolioH">
-            <div id="portal1" class="portalH">
-                <h2>PORTAFOLIO</h2>
-                <div class="menu">
-                    <div class="opciones">
-                        <div class="opciones">PROYECTO 1</div>
-                        <div class="opciones">PROYECTO 2</div>
-                        <div class="opciones">PROYECTO 3</div>
-                    </div>
-                </div>
-            </div>
-            <div id="portal2" class="portalH">
-                <h2>HABILIDADES</h2>
-                <p style="text-align: justify;">En esta sección se muestran y nombran los programas y lenguajes de
-                    programación en los qué cuento con conocimiento básico y puedo manejar.</p>
-                <details class="opcionesH">
-                    <summary>PROGRAMAS QUÉ MANEJO</summary>
-                    <summary class="programas">Java</summary>
-                    <img class="programasImg"
-                        src="https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png">
-                    <summary class="programas">MySQL</summary>
-                    <img class="programasImg"
-                        src="https://hoplasoftware.com/wp-content/uploads/2021/07/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png">
-                    <summary class="programas">HTML</summary>
-                    <img class="programasImg"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png">
-                    <summary class="programas">CSS</summary>
-                    <img class="programasImg"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png">
-                    <summary class="programas">JavaScript</summary>
-                    <img class="programasImg" src="https://trellat.es/wp-content/uploads/2015/02/javascript_logo.png">
-                </details>
-            </div>
-        </div>
+      </div>
     </div>
-</body>
-
+    <script src="../scripts/scriptP.js"></script>
+  </body>
 </html>
