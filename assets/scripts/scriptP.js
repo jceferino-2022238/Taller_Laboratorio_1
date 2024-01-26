@@ -16,6 +16,6 @@ function mostrarClothes() {
 function mostrarMath() {
   document.getElementById('tituloAR').innerText = 'Math Page';
   document.getElementById('textoAR').innerText =
-    'Este fue un proyecto grupal, fue desarrollado como una plataforma dedicada a las matemáticas, permite la realización de diversos cálculos y operaciones relacionadas con temas como la geometría, dentro del proyecto fui responsable de la sección de cálculo de áreas y perímetros';
+    'Este fue un proyecto grupal, fue desarrollado como una plataforma dedicada a las matemáticas, permite la realización de diversos cálculos y operaciones relacionadas con temas como la geometría, dentro del proyecto fui responsable de la sección de cálculo de áreas y perímetros.';
   document.getElementById('imagenAR').src = '../resources/math.png';
 }
