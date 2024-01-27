@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(255, 255, 186);
+}
 .header{
     align-items: center;
     align-content: center;
@@ -96,4 +99,22 @@ img.displaySlide{
 @keyframes fade{
     from {opacity: .5;}
     to {opacity: 1}
+}
+.trabajoBH{
+    background-color: #8497cc;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+.tituloSecc{
+    font-size: 30px;
+    color: white;
+}
+.parrafoSecc{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
 }

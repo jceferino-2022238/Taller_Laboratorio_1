@@ -1,1 +1,3 @@
 # Taller_Laboratorio_1
+Este proyecto (Laboratorio 1) es un proyecto constituido por 3 páginas (MIS PASATIEMPOS, BIOGRAFÍA Y LA PÁGINA DE KINAL), cada página cuenta con un archivo html, css y js. Durante el desarrollo de este proyecto se tomó en cuenta qué cada página contara con un estilo y paleta de colores similares a las de Kinal, implementando acciones y funciones de Js interesantes e interactivas. 
+El rediseño qué se eligió para la página de Kinal se desarrollo para facilitar la exploración del usuario por la página web, resumiendo secciones qué se encontraban en la original.
