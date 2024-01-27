@@ -12,3 +12,51 @@
     justify-content: space-around;
     align-items: center;
 }
+.menu{
+    position: relative;
+    display: inline-block;
+}
+.botonM{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 12px;
+    color: white;
+    width: 175px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.botonM:hover{
+    background-color: #a3b1da;
+}
+.cuadroOpciones{
+    display: none;
+    position: absolute;
+    background-color: #334988;
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    border-radius: 13px;
+    width: 175px;
+}
+.titulosB{
+    color: white;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 13px;
+}
+.partners{
+    height: 50px;
+    width: 125px;
+}
+.titulosB:hover{
+    background-color: #8dabff;
+}
+.show{
+    display: block;
+}
+#opciones4{
+    background-color: #a7bfff;
+}
